@@ -120,11 +120,6 @@
                 jvalor = potencia;
                 opera=0;
             }
-            if (opera ==9){
-                potencia = "Puto";
-                $("#cajita").val(potencia);
-                opera=0;
-            }
 
         }
 
@@ -172,9 +167,8 @@
             acCle();
         }
         function Nombre(){
-            acum = jvalor;
-            opera = 9; 
-            acCle();
+            $("#cajita").val("LENIN PACHECO PERALTA");
+
         }
         function acBot( valor ){
             jvalor = jvalor + valor;
